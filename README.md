@@ -19,18 +19,15 @@ REQUIRED SECTIONS:
 - Acknowledgements
 - License
 
-OPTIONAL SECTIONS:
-- FAQ
-
 After you're finished please remove all the comments and instructions!
 -->
 
 <div align="center">
-  <!-- You are encouraged to replace this logo with your own! Otherwise you can also remove it. -->
-  <img src="murple_logo.png" alt="logo" width="140"  height="auto" />
+
+  <img src="images/murple_logo.png" alt="logo" width="140"  height="auto" />
   <br/>
 
-  <h3><b>Microverse README Template</b></h3>
+  <h3><b>Herox Tech-hub</b></h3>
 
 </div>
 
@@ -55,22 +52,18 @@ After you're finished please remove all the comments and instructions!
 - [🤝 Contributing](#contributing)
 - [⭐️ Show your support](#support)
 - [🙏 Acknowledgements](#acknowledgements)
-- [❓ FAQ (OPTIONAL)](#faq)
+- [❓ FAQ](#faq)
 - [📝 License](#license)
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 [your_project_name] <a name="about-project"></a>
+# 📖 PHYSICAL EDUCATION GLOBAL SUMMIT <a name="about-project"></a>
 
-> Describe your project in 1 or 2 sentences.
-
-**[your_project__name]** is a...
+ This is a capstone project in the Microverse program to test my understanding of HTML,CSS and DOM Manipulation. I therefore designed an annual lecture website where you can see details of the lecture.
 
 ## 🛠 Built With <a name="built-with"></a>
 
 ### Tech Stack <a name="tech-stack"></a>
-
-> Describe the tech stack and include only the relevant sections that apply to your project.
 
 <details>
   <summary>Client</summary>
@@ -79,29 +72,12 @@ After you're finished please remove all the comments and instructions!
   </ul>
 </details>
 
-<details>
-  <summary>Server</summary>
-  <ul>
-    <li><a href="https://expressjs.com/">Express.js</a></li>
-  </ul>
-</details>
-
-<details>
-<summary>Database</summary>
-  <ul>
-    <li><a href="https://www.postgresql.org/">PostgreSQL</a></li>
-  </ul>
-</details>
-
 <!-- Features -->
 
 ### Key Features <a name="key-features"></a>
 
-> Describe between 1-3 key features of the application.
-
-- **[key_feature_1]**
-- **[key_feature_2]**
-- **[key_feature_3]**
+- **Responsive design**
+- **Used only vanilla CSS, html and Javascript**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -109,9 +85,13 @@ After you're finished please remove all the comments and instructions!
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-> Add a link to your deployed project.
+- [Live Demo Link](To be edited)
 
-- [Live Demo Link](https://yourdeployedapplicationlink.com)
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+## Project Description <a name="live-demo"></a>
+
+- [Loom Video](To be edited)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -119,13 +99,16 @@ After you're finished please remove all the comments and instructions!
 
 ## 💻 Getting Started <a name="getting-started"></a>
 
-> Describe how a new developer could make use of your project.
-
 To get a local copy up and running, follow these steps.
 
 ### Prerequisites
 
 In order to run this project you need:
+
+- A personal computer connected to the internet
+- A Modern/Updated web browser
+- Have a local version control like git installed on your computer and a Github account
+- Code editor (Visual studio code, sublime text, notepad++, ...) installed on your computer
 
 <!--
 Example command:
@@ -139,6 +122,10 @@ Example command:
 
 Clone this repository to your desired folder:
 
+```sh
+    cd your-desired-folder
+    git clone https://github.com/jkanyi-web/Capstone-Module-1.git
+```
 <!--
 Example commands:
 
@@ -152,6 +139,11 @@ Example commands:
 
 Install this project with:
 
+```sh
+    cd your-desired-folder
+    git clone git@github.com:jkanyi-web/Capstone-Module-1.git
+```
+
 <!--
 Example command:
 
@@ -163,7 +155,7 @@ Example command:
 
 ### Usage
 
-To run the project, execute the following command:
+To run the project, open index.html with your preferred browser.
 
 <!--
 Example command:
@@ -175,47 +167,21 @@ Example command:
 
 ### Run tests
 
-To run tests, run the following command:
+To run tests, run the following command in your `git bash` or CLI:
 
-<!--
-Example command:
-
-```sh
-  bin/rails test test/models/article_test.rb
-```
---->
-
-### Deployment
-
-You can deploy this project using:
-
-<!--
-Example:
-
-```sh
-
-```
- -->
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+- `npx hint .` : for the html codebase and use of best practices.
+- `npx stylelint "**/*.{css,scss}"`: for the css codebase and use of best practices. you can add.
+- `npx eslint .`: for the JavaScript codebase and use of best practices.
 
 <!-- AUTHORS -->
 
 ## 👥 Authors <a name="authors"></a>
 
-> Mention all of the collaborators of this project.
+👤 **Victor Kanyi**
 
-👤 **Author1**
-
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
-
-👤 **Author2**
-
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
+- GitHub: <https://github.com/jkanyi-web>
+- Twitter: <https://twitter.com/jkanyi757>
+- LinkedIn: <https://www.linkedin.com/in/kanyi-kanyi-6668aa188/>
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -223,11 +189,9 @@ Example:
 
 ## 🔭 Future Features <a name="future-features"></a>
 
-> Describe 1 - 3 features you will add to the project.
-
-- [ ] **[new_feature_1]**
-- [ ] **[new_feature_2]**
-- [ ] **[new_feature_3]**
+- [ ] **Program Page**
+- [ ] **Register Page**
+- [ ] **News Page**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -237,7 +201,7 @@ Example:
 
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [issues page](../../issues/).
+Feel free to check the [issues page](https://github.com/jkanyi-web/Capstone-Module-1/issues).
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -245,9 +209,7 @@ Feel free to check the [issues page](../../issues/).
 
 ## ⭐️ Show your support <a name="support"></a>
 
-> Write a message to encourage readers to support your project
-
-If you like this project...
+If you like this project, kindly give a ⭐️.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -255,25 +217,7 @@ If you like this project...
 
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
-> Give credit to everyone who inspired your codebase.
-
-I would like to thank...
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-<!-- FAQ (optional) -->
-
-## ❓ FAQ (OPTIONAL) <a name="faq"></a>
-
-> Add at least 2 questions new developers would ask when they decide to use your project.
-
-- **[Question_1]**
-
-  - [Answer_1]
-
-- **[Question_2]**
-
-  - [Answer_2]
+Original design idea by [Cindy Shin in Behance](https://www.behance.net/adagio07). Thank you very much Cindy.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
