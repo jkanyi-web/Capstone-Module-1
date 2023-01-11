@@ -116,7 +116,7 @@ function toggleSeeMobile() {
   footer.classList.remove('hidden');
   seeLess.classList.remove('hidden');
   seeMore.classList.add('hidden');
-};
+}
 
 function toggleSeeDesktop() {
   speakers.classList.remove('hidden');
