@@ -199,7 +199,7 @@ img {
   width: 50%;
   height: 50%;
   background-image: url(images/dark-chees-background.svg);
-  background-size: 18%;
+  background-size: 20%;
   background-repeat: round;
 }
 
@@ -211,7 +211,7 @@ img {
 }
 
 .speaker-info {
-  width: calc(100% - 120px);
+  width: calc(100% - 100px);
 }
 
 .speaker-info h3 {
@@ -231,7 +231,7 @@ img {
   background-color: var(--background);
   width: 22px;
   height: 1px;
-  margin-bottom: 9px;
+  margin-bottom: 9px;  
 }
 
 .speaker-info p {
@@ -448,6 +448,11 @@ img {
   .logo-menu li {
     list-style-type: none;
     color: var(--black);
+  }
+
+  .logo-menu a:nth-child(6) {
+    border: 2px solid red;
+    padding: 5px;
   }
 
   .speakers li {

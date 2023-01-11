@@ -16,7 +16,7 @@ menuLinks.forEach((link) => {
   link.addEventListener('click', toggleMenu);
 });
 
-// Dynmaic Creation
+// Dynamic Creation
 
 const speakers = document.querySelector('#speakers');
 const FeaturedSpeaker = document.createElement('div');
@@ -36,7 +36,7 @@ const presenters = [
   {
     id: 1,
     name: 'Kanyi Victor',
-    qualification: 'Professor of Physical health and Biology at Harvard Law School',
+    qualification: 'Professor of Physical health and Biology at Harvard fitness School',
     profession: 'Kanyi Victor studies and practices static fitness, and published his seminal book The Wealth of fitness in 2006.',
     image: 'images/profile.jpg',
   },
@@ -63,15 +63,15 @@ const presenters = [
   },
   {
     id: 5,
-    name: 'Edom Nancy',
-    qualification: 'Berkman Professor of Enterpreneurial Legal Studies at Strathmore University',
-    profession: 'Nancy studies Biology and Advanced Genetics, and published the most sought after fitness educational article, The Power of Fitness in 2021',
+    name: 'Catherine Nancy',
+    qualification: 'Berkman Professor of Medicine and Biological Health Studies at Strathmore University',
+    profession: 'Nancy studies Biology and Advanced Genetics, and published the most sought after fitness educational article, The Power of Biology in 2021',
     image: 'images/profile.jpg',
   },
   {
     id: 6,
     name: 'Akachukwu Smart',
-    qualification: 'Berkman Professor of Enterpreneurial Legal Studies at Harvard Law School',
+    qualification: 'Berkman Professor of Biological Studies at Harvard Medical School',
     profession: 'Smart is an established and successful proactive body builder who has his career set on body building and is thus one of the best candidates to discuss matters physical health',
     image: 'images/profile.jpg',
   },
@@ -82,7 +82,7 @@ presenters.forEach((presenter) => {
   list.innerHTML = `
         <div class="speaker-image">
             <div class="speaker-bg"></div>
-            <img src="${presenter.image}" alt="">
+            <img src="${presenter.image}" alt="Presenter Image">
         </div>
         <div class="speaker-info">
             <h3>${presenter.name}</h3>
