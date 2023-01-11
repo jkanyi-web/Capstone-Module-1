@@ -21,13 +21,12 @@ REQUIRED SECTIONS:
 
 After you're finished please remove all the comments and instructions!
 -->
-
 <div align="center">
-
-  <img src="images/murple_logo.png" alt="logo" width="140"  height="auto" />
+  <!-- You are encouraged to replace this logo with your own! Otherwise you can also remove it. -->
+  <img src="murple_logo.png" alt="logo" width="140"  height="auto" />
   <br/>
 
-  <h3><b>Herox Tech-hub</b></h3>
+  <h3><b>PEGS README Template</b></h3>
 
 </div>
 
