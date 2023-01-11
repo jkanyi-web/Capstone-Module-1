@@ -3,7 +3,7 @@
 const hamburger = document.querySelector('#hamburger');
 const closeMenu = document.querySelector('#glyphicon-remove');
 const mobileMenu = document.querySelector('#mobile-menu');
-const menuLinks = document.querySelectorAll('#mobile-menu li');
+const menuLinks = document.querySelectorAll('#mobile-menu a');
 
 function toggleMenu() {
   mobileMenu.classList.toggle('hidden');
