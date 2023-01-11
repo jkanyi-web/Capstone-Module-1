@@ -101,7 +101,6 @@ const seeMore = document.querySelector('#see-more');
 const partners = document.querySelector('#partners');
 const footer = document.querySelector('#footer');
 const seeDesktop = document.querySelector('#see-program');
-// const speakersList = document.querySelectorAll('#speakers-list');
 
 function toggleHideMobile() {
   speakers.classList.add('hidden');
@@ -109,9 +108,6 @@ function toggleHideMobile() {
   footer.classList.add('hidden');
   seeLess.classList.add('hidden');
   seeMore.classList.remove('hidden');
-  // speakersList.forEach((list) => {
-  //     list.classList.add('hidden');
-  // });
 }
 
 function toggleSeeMobile() {
@@ -120,19 +116,12 @@ function toggleSeeMobile() {
   footer.classList.remove('hidden');
   seeLess.classList.remove('hidden');
   seeMore.classList.add('hidden');
-  // speakersList.forEach((list) => {
-  //     list.classList.remove('hidden');
-  // });
-}
+};
 
 function toggleSeeDesktop() {
-  // speakersList.forEach((list) => {
-  //     list.classList.toggle('hidden');
-  // });
   speakers.classList.remove('hidden');
   partners.classList.remove('hidden');
   footer.classList.remove('hidden');
-  // seeDesktop.classList.add('hidden');
 }
 
 seeLess.addEventListener('click', toggleHideMobile);

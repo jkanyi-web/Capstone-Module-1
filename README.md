@@ -63,15 +63,6 @@ After you're finished please remove all the comments and instructions!
 
 ## 🛠 Built With <a name="built-with"></a>
 
-### Tech Stack <a name="tech-stack"></a>
-
-<details>
-  <summary>Client</summary>
-  <ul>
-    <li><a href="https://reactjs.org/">React.js</a></li>
-  </ul>
-</details>
-
 <!-- Features -->
 
 ### Key Features <a name="key-features"></a>
@@ -85,13 +76,13 @@ After you're finished please remove all the comments and instructions!
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-- [Live Demo Link](To be edited)
+- [Live Demo Link](https://jkanyi-web.github.io/Capstone-Module-1/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ## Project Description <a name="live-demo"></a>
 
-- [Loom Video](To be edited)
+- [Loom Video](https://www.loom.com/share/a90e8902f0cb442284fd0c7dda08e76d)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -217,7 +208,8 @@ If you like this project, kindly give a ⭐️.
 
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
-Original design idea by [Cindy Shin in Behance](https://www.behance.net/adagio07). Thank you very much Cindy.
+Original design idea by [Cindy Shin in Behance](https://www.behance.net/adagio07).
+Thank you very much Cindy.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
