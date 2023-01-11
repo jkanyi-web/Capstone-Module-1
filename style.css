@@ -18,6 +18,10 @@ img {
   max-height: 100%;
 }
 
+li {
+  list-style: none;
+}
+
 .first-page {
   background-image: url(images/background.svg);
   background-repeat: no-repeat;
@@ -398,8 +402,15 @@ img {
     width: 100%;
     justify-content: flex-end;
     align-items: center;
-    gap: 30px;
     padding: 3px 15% 3px 3px;
+  }
+
+  .contact li {
+    margin-right: 30px;
+  }
+
+  .contact li:nth-child(1) {
+    margin-right: 20px;
   }
 
   .contact div {
